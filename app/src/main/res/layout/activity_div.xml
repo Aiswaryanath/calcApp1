@@ -1,0 +1,44 @@
+<LinearLayout android:layout_height="match_parent"
+    android:background="#00aabb"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number1"
+        />
+    <TextView
+        android:text="number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number2"
+        />
+
+    <Button
+        android:text="div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/div"/>
+    <Button
+        android:text="back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"/>
+    <EditText
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:editable="false">
+    </EditText>
+</LinearLayout>

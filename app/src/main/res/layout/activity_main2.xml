@@ -1,0 +1,46 @@
+<LinearLayout android:layout_height="match_parent"
+    android:background="#00aabb"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:text="add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"/>
+
+    <Button
+        android:text="sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub"/>
+    <Button
+        android:text="mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mul"/>
+    <Button
+        android:text="division"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/division"/>
+
+    <Button
+        android:text="findsmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/findsmall"/>
+    <Button
+        android:text="findlarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/findlarge"/>
+    <Button
+        android:text="viewusers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewusers"/>
+
+
+
+</LinearLayout>
